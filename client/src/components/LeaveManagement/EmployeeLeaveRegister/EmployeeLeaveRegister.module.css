@@ -1,0 +1,82 @@
+.data_title{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: start;
+}
+
+.output_data{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+}
+
+.container{
+    margin: 30px;
+    background: #F8FAFF;
+    border-radius: 20px;
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.nav_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.profile_picture{
+    width: 20%;
+    background-color: #F8FAFF;
+}
+.profile_content1{
+   padding: 24px;
+   background-color: white;
+   border-radius: 10px;
+   display: flex;
+   gap: 25px;
+   width: 40%;
+}
+
+.profile_content2{
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 25px;
+    width: 40%;
+ }
+ 
+
+
+.profile_content1 div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile_content1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.profile_content2 div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile_content2 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+

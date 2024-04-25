@@ -1,0 +1,42 @@
+.container{
+    margin: 30px;
+    background: #F8FAFF;
+    border-radius: 20px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.leave_applicationContent{
+    display: flex;
+    gap: 20px;
+  flex: 2;
+}
+
+.input_fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.input_fields > div:nth-child(6) {
+    background-color: red;
+    grid-column: 2 / span 1; 
+    grid-row: 3 / span 2; 
+}
+
+
+
+.request{
+ padding: 20px;
+ background-color: white;
+}
+
+
+.stutas_request{
+flex: 1;
+}
+
+.nav_section{display: flex;
+justify-content: space-between;
+}

@@ -1,0 +1,147 @@
+.container {
+    margin: 30px;
+    background: #F8FAFF;
+    border-radius: 20px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.leave_content {
+    display: flex;
+    justify-content: space-between;
+    background: #E6E8F4;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 10px;
+}
+.text{
+    margin-top: 30px;
+}
+
+.type1 {
+    background: linear-gradient(90deg, #A4E1FF 3.7%, #6BABFB 93.83%);
+    width: 50%;
+    z-index: 99;
+    text-align: center;
+    padding: .777vw 0 .777vw 0;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: .666vw;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.type1 span:nth-child(1){
+    background-color: white;
+    margin-left: .333vw;
+    border-radius: 14px;
+    padding: .100vw .555vw .133vw .555vw;
+    
+}
+
+.type2 {
+    width: 50%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    padding: .777vw 0 .777vw 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.type2 span:nth-child(1){
+    background-color: white;
+    margin-left: .333vw;
+    border-radius: 14px;
+    padding: .100vw .555vw .133vw .555vw;
+}
+
+.type2 span:nth-child(2){
+    font-size: 1vw;
+}
+
+.text {
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.selected_content1 {
+    max-width: 380px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+
+}
+
+.selected_content2{
+    max-width: 380px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+
+}
+
+.content1 {
+    display: flex;
+}
+
+.content1 div:nth-child(1) {
+    width: 25%;
+}
+
+.content1 div:nth-child(2) {
+    width: 75%;
+}
+
+
+.content2 {
+    display: flex;
+}
+
+.content2 div:nth-child(1) {
+    width: 25%;
+}
+
+.content2 div:nth-child(2) {
+    width: 75%;
+}
+
+
+.content3 {
+    display: flex;
+}
+
+.content3 div:nth-child(1) {
+    width: 25%;
+}
+
+.content3 div:nth-child(2) {
+    width: 75%;
+}
+
+
+
+.content4 {
+    display: flex;
+}
+
+.content4 div:nth-child(1) {
+    width: 25%;
+}
+
+.content4 div:nth-child(2) {
+    width: 75%;
+}
+
+input{
+    width: 100%;
+}
